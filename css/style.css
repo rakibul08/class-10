@@ -1,0 +1,166 @@
+*{
+    margin:  0;
+     font-family: "Poppins", sans-serif;
+}
+/* nav part start  */
+#navpart{
+padding: 21px 0;
+background-color: #ECEDEF;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+z-index: 12;
+}
+.navContainer{
+    width: 1320px;
+    margin: 0 auto;
+}
+.navContain h1{
+text-align: center;
+font-size: 50px;
+font-weight: 500;
+}
+/* nav part end */
+#ServicePart{
+    padding: 180px 0;
+    background-color: #88a8a0;
+}
+.serviceContainer{
+    width: 1320px;
+     padding: 120px 0; 
+    margin: 0 auto;
+}
+.serviceCatagoriflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.serviceCatagoriflex h3{
+color: white;
+font-size: 36px;
+font-weight: 400;
+line-height: 24px;
+}
+a{
+     text-decoration: none;
+}
+.catagoribtn a{
+font-size: 16px;
+line-height: 24px;
+color: #242B36;
+font-weight: 400;
+column-gap: 12px;
+padding: 10px 18px;
+border: 1px solid #007456;
+color: #007456;
+border-radius: 5px;
+}
+.catagoribtn a:hover{
+    background-color: #fff;
+    color: #242B36;
+} 
+
+.catagoriCardflax{
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ margin-top: 40px;
+}
+.cardItem{
+    width: 30%;
+    padding: 15px ;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+.cardItemImge img{ 
+     width: 100%;
+     
+}
+.cardItemImge{
+    position: relative;
+   
+}
+
+.cardicon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color:#fff;
+position: absolute;
+top: 15px;
+right: 7%;
+}
+.cardicon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+}
+.cardicon i:hover{
+    color: red;
+}
+.cardItem h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #414E62;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.cardItem h4{
+font-size: 20px;
+color: #242B36;
+line-height: 28px;
+font-weight: 500;
+padding: 10px 0;
+}
+.Reviews{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+}
+.Reviews i{
+    color: gold;
+}
+.Reviews p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3B4759;
+    line-height: 24px;
+}
+.Reviews span{
+    font-size: 14px;
+    color: #414E62;
+}
+.serviceClint{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.clinetImageflex{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+
+.clinetImageflex h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #242B36;
+}
+.serviceClint h4{
+    font-size: 14px;
+    line-height: 24px;
+    color: #414E62;
+    font-weight: 400;
+}
+.serviceClint  span{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #242B36;
+}
